@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+input {
+    padding: 15px 35px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: none;
+}
+
+input[type=button]:hover {
+    opacity: 0.7;
+}
+
+.contenedor {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    /* width: 1140px; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #242e52;
+    margin: 0 15px;
+}
+
+.header img {
+    max-width: 100px;
+}
+
+.header input,
+.banner input {
+    color: #fff;
+    background-color: #8b48bf;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.titulos {
+    width: 470px;
+    text-align: right;
+}
+
+.titulos h1 {
+    color: #232c50;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.titulos p {
+    margin-top: 20px;
+}
+
+.banner input {
+    color: #fff;
+    background-color: #8b48bf;
+    margin-top: 40px;
+}
+
+.informativo,
+.call {
+    background-color: #8b48bf;
+    color: #fff;
+}
+
+.informativo .contenedor,
+.call .contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.informativo .contenedor h2,
+.call .contenedor h2 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 55px;
+    max-width: 500px;
+}
+
+.informativo .contenedor p {
+    max-width: 500px;
+    padding-right: 55px;
+    line-height: 150%;
+}
+
+.ventajas {
+    background: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.ventajas .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ventajas article {
+    display: flex;
+    max-width: 550px;
+}
+
+.ventajas .numeroSpan {
+    margin-right: 20px;
+}
+
+.ventajas article span {
+    border-radius: 30px;
+    background: #8b48bf;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+.ventajas article p {
+    color: #b3b2b7;
+    line-height: 155%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profesionales {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.profesionales,
+.profesionales article,
+.articulosProfesionales div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profesionales h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.profesionales .articulosProfesionales {
+    display: flex;
+}
+
+.articulosProfesionales article h3 {
+    padding: 50px 0 30px 0;
+}
+
+.articulosProfesionales article p {
+    text-align: center;
+    color: #b9b9c1;
+    line-height: 156%;
+    padding: 10px;
+}
+
+.articulosProfesionales div {
+    background-color: #fafafa;
+}
+
+.articulosProfesionales img {
+    margin-bottom: -25px;
+    z-index: 1;
+}
+
+.profesionales input {
+    margin: 50px 0 50px 0;
+    color: #fff;
+    background-color: #8b48bf;
+}
+
+.call input {
+    color: #8b48bf;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #1e1e26;
+    color: #fff;
+}
+
+.menusPie {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.copyright {
+    padding-bottom: 50px;
+    text-align: end;
+    font-size: 12px;
+    color: #8c8c94;
+}
+
+.menus p {
+    padding: 10px 0;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logos img{
+    padding: 5px;
+}
+
+footer input[type=button] {
+    background: #8B48BF;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .contenedor {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contenedor {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .header nav {
+        display: none;
+    }
+
+    .header img {
+        margin-left: 35px;
+        width: 100%;
+    }
+
+    .header input {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .banner img {
+        margin-bottom: 60px;
+        padding: 0 30px;
+    }
+
+    .informativo {
+        background-color: #3CDDF3;
+    }
+
+    .informativo .contenedor {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .informativo .contenedor h2 {
+        padding-left: 0px;
+    }
+
+    .informativo .contenedor p {
+        padding-top: 50px;
+    }
+
+    .titulos {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .titulos h1 {
+        font-size: 40px;
+        line-height: 114%;
+    }
+
+    .ventajas {
+        background: #fff;
+    }
+
+    .numeroSpan {
+        margin-left: 30px;
+    }
+
+    .textos h3 {
+        background-color: #8B48BF4D;
+        padding: 10px;
+        margin-top: -10px;
+        width: 110%;
+        margin-left: -32px;
+        font-size: 16px;
+    }
+
+    .textos p {
+        margin-left: -80px;
+        padding-right: 30px;
+    }
+
+    .profesionales {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .articulosProfesionales {
+        padding: 0 20px;
+    }
+
+    .articulosProfesionales p {
+        padding: 0 20px 15px;
+    }
+
+    .articulosProfesionales article:nth-child(odd) {
+        display: none;
+    }
+
+    .call {
+        background-color: #3CDDF3;
+    }
+
+    .call .contenedor {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .call .contenedor h2 {
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        padding-left: 20px;
+    }
+
+    .call input {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: #232C50;
+        color: #fff;
+    }
+
+    .logos {
+        align-items: center;
+    }
+ 
+    .logos img{
+        padding: 20px;
+    }
+
+    .menusPie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        padding: 30px 0;
+    }
+
+    .copyright p {
+        text-align: center;
+        padding: 20px;
+    }
+}
